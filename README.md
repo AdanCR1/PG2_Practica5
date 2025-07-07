@@ -199,7 +199,7 @@ class PedidoCafe(models.Model):
             raise ValidationError({"ingredientes": f"ingrediente inválido: {ing}"})
 ```
 
-***Validación de ingredientes en el serializador PedidoCafeSerializer:**
+**Validación de ingredientes en el serializador PedidoCafeSerializer:**
 ```python
 from rest_framework import serializers
 class PedidoCafeSerializer(serializers.ModelSerializer):
