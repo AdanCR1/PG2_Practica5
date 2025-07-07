@@ -6,6 +6,7 @@ En esta práctica se implementarán patrones de diseño en componentes propios d
 
 ## Estructura del proyecto
 
+```plaintext
 PG2_Practica5/
 ├── manage.py
 ├── requirements.txt
@@ -30,6 +31,7 @@ PG2_Practica5/
 │   ├── urls.py
 │   ├── views.py
 │   └── migrations/
+```
 
 ### Explicación de los patrones de diseño
 
