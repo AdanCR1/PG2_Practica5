@@ -174,10 +174,10 @@ class Latte(CafeBase):
 
 # En conclusión:
 
-Factory: Elige y crea la base del café según la selección del usuario, centralizando la lógica de creación.
-Builder: Permite personalizar el café y calcular el precio final.
-Singleton: Centraliza el registro de logs, asegurando un único punto de acceso y evitando múltiples instancias.
-API: Permite crear y consultar pedidos de café personalizados de forma sencilla y estructurada.
+- **Factory:** Elige y crea la base del café según la selección del usuario, centralizando la lógica de creación.
+- **Builder:** Permite personalizar el café y calcular el precio final.
+- **Singleton:** Centraliza el registro de logs, asegurando un único punto de acceso y evitando múltiples instancias.
+- **API:** Permite crear y consultar pedidos de café personalizados de forma sencilla y estructurada.
 
 ---
 
